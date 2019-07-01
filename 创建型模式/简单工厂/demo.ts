@@ -41,8 +41,8 @@ class AnimalSimpleFactory {
     }
 }
 
-let dog = AnimalSimpleFactory.createAnimal(Dog, '汪星人', '黄色的');
-let cat = AnimalSimpleFactory.createAnimal(Cat, '喵星人', '橘色的');
+let dog:Animal = AnimalSimpleFactory.createAnimal(Dog, '汪星人', '黄色的');
+let cat:Animal = AnimalSimpleFactory.createAnimal(Cat, '喵星人', '橘色的');
 
 dog.say();
 cat.say();
